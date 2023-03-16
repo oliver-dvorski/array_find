@@ -6,11 +6,12 @@ test` script.
 ## Usage
 
 ```php
-$items = [
+$people = [
   ['name' => 'John', 'age' => 20],
   ['name' => 'Jane', 'age' => 21],
   ['name' => 'Jack', 'age' => 22],
 ];
 
-$found = array_find($items, fn($item) => $item['name'] === 'Jane');
+// Returns ['name' => 'Jane', 'age' => 21]
+$found = array_find($people, fn($item) => $item['name'] === 'Jane');
 ```

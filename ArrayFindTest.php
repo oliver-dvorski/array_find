@@ -19,7 +19,7 @@ class ArrayFindTest extends TestCase
      */
     public function exitsOnFirstElement()
     {
-        $items = [
+        $people = [
             ['name' => 'John', 'age' => 20],
             ['name' => 'Jane', 'age' => 21],
             ['name' => 'Jack', 'age' => 22],
@@ -27,7 +27,7 @@ class ArrayFindTest extends TestCase
 
         $iterations = 0;
 
-        $found = array_find($items, function ($item) use (&$iterations) {
+        $found = array_find($people, function ($item) use (&$iterations) {
             ++$iterations;
 
             return $item['name'] === 'Jane';
