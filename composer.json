@@ -1,0 +1,22 @@
+{
+    "name": "oliver-dvorski/array_find",
+    "description": "array_find for php. It stops the linear search when the first match is found.",
+    "license": "MIT",
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "authors": [
+        {
+            "name": "Oliver Dvorski",
+            "email": "oliver.dvorski@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "array_find.php"
+        ]
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
