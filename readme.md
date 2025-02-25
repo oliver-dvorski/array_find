@@ -1,3 +1,5 @@
+ℹ️ As of php 8.4, this function is [natively supported by php](https://www.php.net/manual/en/function.array-find.php).
+
 Install the dependencies with `composer install`.
 
 You can confirm that the program does what it should by running the `composer
